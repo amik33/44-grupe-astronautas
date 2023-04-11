@@ -1,9 +1,10 @@
 {
   "name": "44-grupe-astronautas",
   "version": "1.0.0",
-  "description": "",
+  "description": "Astronautas",
   "main": "index.js",
   "scripts": {
+    "dev": "dead-server --host=localhost --port=4403",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
