@@ -16,13 +16,17 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://amik33.github.io/44-grupe-astronautas/
 
-Design: [Astronautas](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*-i5m47JMGAhGVIdQPThnDQ.jpeg)
-
+Design: [Astronautas](https://dribbble.com/shots/5964475-404-Lost-in-Space)
 ## 🎯 Project features/goals
 
 -   Github pages
 -   README / [markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--   super basic HTML/CSS
+-   favicon
+-   fixed-width content
+-   `<header>`, `<footer>`
+-   FontAwesome font/icons
+-   HTML entities
+-   pseudo-elements
 
 ## 🧰 Getting Started
 
