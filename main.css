@@ -1,0 +1,18 @@
+header {
+    background-color: aqua;
+    margin-top: 100px;
+    width: 700px;
+    margin-left: calc((100% - 700px) / 2);
+}
+
+main {
+   background-color: bisque;
+   width: 700px;
+   margin-left: calc((100% - 700px) / 2);
+}
+
+footer {
+    background-color: blue;
+    width: 700px;
+    margin-left: calc((100% - 700px) / 2);
+}
