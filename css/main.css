@@ -7,55 +7,63 @@ body * {
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-header,
- main, 
- footer {
+.container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 30px calc((100% - 900px) / 2);
     width: 900px;
  }
-header {   
-}
-header > img {
+.logo {
     height: 30px;
     width: 200px;
     object-fit: contain;
     object-position: left center;
 }
-nav {
+.main-nav {
     display: flex;
     gap: 30px;
 }
-nav > a {
+.link {
     color: #000;
     font-size: 18px;
     text-decoration: none;
 }
-nav > a:hover {
+.link:hover {
     text-decoration: underline;
     color: #55337a;
 }
-main {  
-}
-main > div {
+.left-column {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 40%;
 }
-h1 {
+.main-title {
+    font-size: 32px;
 }
-p {
+.main-title > span {
+    display: block;
+    font-weight: normal;
 }
-div > div {
+.main-title::after {
+    content:"";
+    display: block;
+    width: 65px;
+    height: 2.5px;
+    margin-top: 10px;
+    background-color: #55337a;
+}
+.description {
+    color: #A7A7A7;
+}
+.button-group {
     display: flex;
     flex-wrap: wrap;
     font-size: 18px;      /* 18px = 1em */
     gap: 1em;
 }
-div > a {
+.button {
     display: inline-block;
     padding: 1em 2.5em;
     background-color: #55337a;
@@ -67,12 +75,14 @@ div > a {
     border: 0.1em solid #55337a;
     user-select: none;
 }
-div > a:hover {
+.button:hover {
     background-color: #fff;
     color: #55337a;
 }
-main > img {
+.right-column {
     width: 55%;
 }
-footer {
+.socials {
+}
+.copyright {
 }
